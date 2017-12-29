@@ -1,0 +1,53 @@
+.form-control-1 {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  color: #3e515b;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #c2cfd6;
+  border-radius: 0;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.search-btn {
+  float: right;
+  margin: 5px;
+}
+
+.link-text{
+  font-size: 11px;
+  color: #1f8bf5;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.primary-button {
+  float: right;
+  margin: 10px;
+  min-width: 80px;
+}
+
+.btn-primary {
+  background-color: #f86c6b;
+  border-color: #f86c6b;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  border-color: #b9b9b9;
+  color: #f86c6b;
+}
+
+.add-module-btn{
+  background-color: #20a8d8;
+  border-color: #20a8d8;
+}

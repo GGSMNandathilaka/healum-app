@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-md-6">
+  </div>
+  <div class="col-md-6">
+    <button class="btn btn-primary search-btn add-module-btn" (click)="openDialog()">Add</button>
+    <input type="text" class="form-control-1 search-btn" placeholder="Search Media" [formControl]="mediaCtrl">
+  </div>
+</div>
+
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-sm-6 col-md-2" *ngFor="let m of filteredArr">
+      <div class="card">
+        <div class="card-body">
+          <img src="{{m?.imgPath}}" class="card-image">
+        </div>
+        <div class="card-footer">
+          <div>{{m?.name}}</div>
+          <div class="link-text">{{m?.company}}</div>
+          <div>
+            <button class="btn btn-secondary">Skip</button>
+            <button class="btn btn-primary">Read</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

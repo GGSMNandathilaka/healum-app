@@ -1,0 +1,64 @@
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.primary-button {
+  float: right;
+  margin: 10px;
+  min-width: 80px;
+}
+
+.form-control-1 {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  color: #3e515b;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #c2cfd6;
+  border-radius: 0;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.search-btn {
+  float: right;
+  margin: 5px;
+}
+
+.link-text{
+  font-size: 11px;
+  color: #1f8bf5;
+}
+
+.example-container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+.mat-drawer-container {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+mat-drawer {
+  width: 500px;
+}

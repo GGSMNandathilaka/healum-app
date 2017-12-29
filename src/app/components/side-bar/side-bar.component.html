@@ -1,0 +1,36 @@
+<div class="sidebar">
+  <nav class="sidebar-nav">
+    <ul class="nav">
+      <li class="nav-item">
+        <!--<a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a>-->
+        <a class="nav-link"><i class="icon-speedometer"></i> Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active"
+           [routerLink]="['/s1', {outlets: {'aux3':'users'}}]">
+          <i class="icon-user"></i>Users</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a>-->
+        <a class="nav-link"><i class="icon-settings"></i> Settings</a>
+      </li>
+      <li class="divider"></li>
+      <li class="nav-title">
+        Tools
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active"
+           [routerLink]="['/s1', {outlets: {'aux3':'module1'}}]">
+          <i class="icon-folder"></i>Module-1</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a>-->
+        <a class="nav-link"><i class="icon-folder"></i>Module-2</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><i class="icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a>-->
+        <a class="nav-link"><i class="icon-folder"></i>Module-3</a>
+      </li>
+    </ul>
+  </nav>
+</div>
